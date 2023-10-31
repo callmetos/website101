@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UNICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Chan<span>T</span>os</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#education" class="nav__link">Education</a></li>
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+        <div class="nav__socials">
+          <a href="https://www.facebook.com/tos.channathat.9/" target="_blank" class="nav__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="www.twitter.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+          <a href="www.linkedin.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/chantos._/" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Hello World</span>
+            <h1 class="home__title">
+              Hi, I'm Chantos <span>Computer Engineering Student</span> in KMUTT.
+            </h1>
+          </div>
+          <img src="assets/img/home.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">
+              I'm Chantos, a passionate and aspiring computer engineering student. I have a deep-rooted fascination for the world of technology and a burning desire to create innovative solutions that push the boundaries of what's possible.
+            </p>
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#award">Award</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#Education">Education & Certification</span>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>User experience design</span> - UI/UX
+                    <span>Delight the user and make it work.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Web and user interface design</span> - Development
+                    <span>Websites, web experiences.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Programming</span> 
+                    <span></span>
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="award">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Telehealth Innovation for Functional Disabilities</span> - Finals
+                    <span>2021 - 2022</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>CSS Design Awards</span> - Winner
+                    <span>2020 - 2021</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Design nominees</span> - site of the day
+                    <span>2021 - 2022</span>
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  
+                  <p class="tabs__description">
+                    <span>UX/UI Design</span>
+                    <span>2022 - 2023</span>
+                  </p>
+                  
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="Education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Computer Engineering</span> - KMUTT
+                    <span>2023</span>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EDUCATION -->
+      <section class="education section" id="education">
+        <h2 class="section__title">My Education</h2>
+        <p class="section__description">
+          Here's a detailed overview of my educational background.
+        </p>
+        <div class="education__container container grid">
+          <div class="education__item">
+            <i class="uil uil-graduation-cap education__icon"></i>
+            <h3 class="education__title">Bachelor's in Computer Engineering</h3>
+            <p class="education__description">
+              I am currently pursuing my Bachelor's degree in Computer Engineering at KMUTT. Expected graduation in 2027.
+            </p>
+          </div>
+          <div class="education__item">
+            <i class="uil uil-graduation-cap education__icon"></i>
+            <h3 class="education__title">High School Diploma</h3>
+            <p class="education__description">
+              I completed my high school education at Debsirin School in Thailand. Graduated in 2022.
+            </p>
+          </div>
+          <div class="education__item">
+            <i class="uil uil-graduation-cap education__icon"></i>
+            <h3 class="education__title">Certification in Web Development</h3>
+            <p class="education__description">
+              I obtained a certification in Web Development from an online course in 2022. This certification enhanced my skills in front-end and back-end web development.
+            </p>
+          </div>
+          <!-- Add more education items here -->
+        </div>
+      </section>
+      <!-- PORTFOLIO -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">
+          
+        </p>
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Web Design</h3>
+              <p class="portfolio__description">
+                Web design is the art of creating visually appealing and user-friendly websites, ensuring a great user experience and effective communication of a brand's message
+              </p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Product Design</p>
+              <h3 class="portfolio__title">App Development</h3>
+              <p class="portfolio__description">
+                friendly interface, while app development involves writing the code and building the functional aspects of software applications. Together, they form the foundation of successful digital products.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Application</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                creating and editing images and graphics using Adobe Photoshop, a versatile software for design, illustration, and image manipulation
+              </p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Web Design</p>
+              <h3 class="portfolio__title">Website Design</h3>
+              <p class="portfolio__description">
+                process of creating websites, while website design focuses on the design of individual websites.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Application</p>
+              <h3 class="portfolio__title">Web Application</h3>
+              <p class="portfolio__description">
+                user experience (UX) design, user interface (UI) design, layout, graphics, and overall aesthetics.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Photoshop</p>
+              <h3 class="portfolio__title">Photo Editing</h3>
+              <p class="portfolio__description">
+                improve their quality, appearance, or content. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Contact Me</h2>
+            <p class="contact__description">
+              I am available for freelance work. Connect with me via phone:
+              <a href="tel:0618717373">0618717373</a> or email:
+              <a href="mailto:admin@example.com">channathat.u@gmail.com</a>
+            </p>
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"
+                  class="contact__input"
+                  id="contact-name"
+                />
+              </div>
+              <div class="contact__form-input">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your e-mail"
+                  class="contact__input"
+                  id="contact-email"
+                />
+              </div>
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Write a Subject"
+                  class="contact__input"
+                  id="contact-subject"
+                />
+              </div>
+              <div class="contact__form-input">
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  class="contact__input textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn" />
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+          <img src="assets/img/contact.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">Chan<span>T</span>os</a>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/tos.channathat.9/" target="_blank" class="footer__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="www.twitter.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+          <a href="www.linkedin.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/chantos._/" target="_blank" class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+        <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+    <!-- EMAIL JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+   
